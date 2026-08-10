@@ -4,7 +4,7 @@ This repository has been upgraded with a compact research-quality layer: referen
 
 ## Scope
 
-cmb-acoustic-peak-lab upgraded with reproducibility metadata and validation.
+Private CMB acoustic-peak browser lab with worker-based spectra and Planck-like reference anchors.
 
 ## Equations And Models
 

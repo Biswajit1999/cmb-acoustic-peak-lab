@@ -1,6 +1,6 @@
 {
   "title": "cmb acoustic peak lab",
-  "description": "cmb-acoustic-peak-lab upgraded with reproducibility metadata and validation.",
+  "description": "Private CMB acoustic-peak browser lab with worker-based spectra and Planck-like reference anchors.",
   "equations": [
     "Repository metadata completeness",
     "Reference-data finite anchor validation",
