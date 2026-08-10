@@ -41,3 +41,7 @@ Planck 2018 TT power-spectrum peak locations and amplitudes, compressed for brow
 
 - Planck Collaboration, 2020. Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6.
 - Hu, W. and Dodelson, S., 2002. Cosmic microwave background anisotropies. Annual Review of Astronomy and Astrophysics, 40, pp.171-216.
+
+## Research Quality Upgrade
+
+See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
