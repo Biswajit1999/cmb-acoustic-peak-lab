@@ -1,0 +1,38 @@
+{
+  "dataset": "Planck-like published CMB acoustic peak anchors",
+  "source": "Planck 2018 TT power-spectrum peak locations and amplitudes, compressed for browser validation.",
+  "citation": "Planck Collaboration, 2020. Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6.",
+  "x_label": "Multipole ell",
+  "y_label": "D_ell [microK^2]",
+  "points": [
+    {
+      "x": 220,
+      "y": 5740,
+      "label": "first acoustic peak"
+    },
+    {
+      "x": 540,
+      "y": 2550,
+      "label": "second acoustic peak"
+    },
+    {
+      "x": 800,
+      "y": 2500,
+      "label": "third acoustic peak"
+    },
+    {
+      "x": 1120,
+      "y": 1200,
+      "label": "damping tail"
+    },
+    {
+      "x": 1450,
+      "y": 650,
+      "label": "Silk damping"
+    }
+  ],
+  "requiredCitations": [
+    "Planck Collaboration, 2020. Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6.",
+    "Hu, W. and Dodelson, S., 2002. Cosmic microwave background anisotropies. Annual Review of Astronomy and Astrophysics, 40, pp.171-216."
+  ]
+}
