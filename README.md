@@ -77,10 +77,12 @@ The Planck satellite (2009-2013 operations) produced the most precise full-sky m
 CMB TT, TE and EE power spectra to date, pinning down the six-parameter LCDM model to percent-level
 precision: Omega_b h^2, Omega_c h^2, H0 (or equivalently the acoustic scale theta_*), the optical
 depth to reionization tau, the amplitude A_s and tilt n_s of the primordial spectrum. The reference
-anchor points bundled in `data/reference.json` (peak multipoles and D_l amplitudes for the first
-three acoustic peaks and the start of the damping tail) are representative Planck 2018 TT
-spectrum values, included so the interactive model can be visually cross-checked against a
-real published benchmark rather than viewed in isolation.
+data bundled in `data/reference.json` is no longer a 5-point sketch -- it is the **actual 83-bin
+Planck 2018 TT power spectrum**, downloaded directly from the Planck Legacy Archive
+(`COM_PowerSpect_CMB-TT-binned_R3.01.txt`), with each bin's real measured `D_ell` value and
+symmetrised 1-sigma uncertainty rendered as an error bar. This lets the interactive model be
+visually cross-checked against the real published spectrum, all three acoustic peaks and the
+damping tail included, rather than five representative landmarks.
 
 ## How It Works
 
