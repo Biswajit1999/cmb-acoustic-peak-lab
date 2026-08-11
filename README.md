@@ -221,6 +221,25 @@ D_l = l (l + 1) C_l / (2 pi)
 - Planck Collaboration, 2020. Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6.
 - Hu, W. and Dodelson, S., 2002. Cosmic microwave background anisotropies. Annual Review of Astronomy and Astrophysics, 40, pp.171-216.
 
+## What the Peak Positions and Ratio Actually Constrain
+
+`peak_ell_offset_from_planck` compares the model's own first-peak location to the real Planck
+2018 value (`ell ~ 220`, from the precisely measured acoustic scale `theta_* = 1.04109e-2 rad`,
+Planck Collaboration, 2020, *A&A*, 641, A6, Table 2) -- at default parameters the model sits
+only `~1.5` multipoles away, a direct check that the default `Omega_m`/`h` slider values are
+already close to the real best-fit cosmology.
+
+`first_second_ratio` (the first-to-second peak height ratio, `~1.79` at default parameters) is
+not just a shape detail: in the real physics, **a higher baryon density `Omega_b h^2` raises
+the odd (first, third, ...) peaks relative to the even (second, fourth, ...) peaks**, because
+baryons add inertia to the photon-baryon plasma and load the compressions more than the
+rarefactions (the same physics that makes the CMB power spectrum shape, not just its overall
+amplitude, a baryon-density probe). This is precisely how Planck derives its real
+`Omega_b h^2 = 0.02237 +/- 0.00015` -- from the detailed peak-height pattern, not from the peak
+positions alone. Increase the `lensing` slider and watch peak heights and the damping tail
+smooth out together, distinct from what changing the baryon-loading ratio would do to just the
+odd/even peak heights.
+
 ## Research Quality Upgrade
 
 See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
