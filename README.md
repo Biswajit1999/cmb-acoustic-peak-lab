@@ -118,8 +118,8 @@ This is a static, zero-build, client-side app; nothing is served except plain fi
   only the `cmb` lab is wired into this app's `index.html`/`app.js`.
 - `data/reference.json` — the small, auditable Planck-like reference bundle (peak locations,
   amplitudes, citation) rendered as fixed markers so the live model can be checked against them.
-- `research-overlay.js` / `data/research-reference.json` / `RESEARCH_QUALITY.md` — a non-invasive
-  quality/validation layer: a small mission-control panel plus benchmark anchors used by
+- `research-overlay.js` / `data/research-reference.json` — a non-invasive validation layer
+  with a small mission-control panel plus benchmark anchors used by
   `scripts/validate_repository.mjs` to check repository integrity without any network access.
 - `scripts/validate.js` — a no-dependency script that checks required files exist, that
   `data/reference.json` is valid JSON with finite numeric anchors, that `physicsWorker.js` parses,
@@ -239,7 +239,3 @@ amplitude, a baryon-density probe). This is precisely how Planck derives its rea
 positions alone. Increase the `lensing` slider and watch peak heights and the damping tail
 smooth out together, distinct from what changing the baryon-loading ratio would do to just the
 odd/even peak heights.
-
-## Research Quality Upgrade
-
-See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
