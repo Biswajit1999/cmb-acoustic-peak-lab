@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it using this metadata."
+title: "CMB Acoustic Peak Lab"
+abstract: "Reproducible cosmic microwave background acoustic peaks laboratory for simulation, scientific visualization, parameter exploration and quantitative analysis. Uses reproducible numerical experiments, parameter exploration"
+type: software
+authors:
+  - family-names: Jana
+    given-names: Biswajit
+repository-code: "https://github.com/Biswajit1999/cmb-acoustic-peak-lab"
+url: "https://biswajit1999.github.io/cmb-acoustic-peak-lab/"
+keywords:
+  - "astronomy"
+  - "astrophysics"
+  - "scientific computing"
+  - "cosmic microwave background"
+  - "acoustic peaks"
+  - "cosmology"
