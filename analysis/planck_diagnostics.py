@@ -10,7 +10,7 @@ import math
 from pathlib import Path
 from typing import Sequence
 
-DEFAULT = {"omegaM": 0.315, "h": 0.674, "ns": 0.965, "lensing": 1.0}
+DEFAULT = {"omegaM": 0.315, "h": 0.674, "ns": 0.965, "lensing": 0.18}
 PEAKS = [(220,5740,80), (540,2550,110), (800,2500,130), (1120,1200,170), (1450,650,220)]
 
 
