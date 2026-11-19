@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "project": "CMB Acoustic Peak Lab",
+  "repository": "https://github.com/Biswajit1999/cmb-acoustic-peak-lab",
+  "files": [
+    {
+      "label": "Reference",
+      "path": "data/reference.json",
+      "role": "Data and provenance",
+      "bytes": 8252,
+      "sha256": "3d5ce2a0eee29ed9a77d273c487277313b4691359230621722b0f31638d5d815",
+      "hash_basis": "LF-normalised text",
+      "format": "JSON",
+      "keys": [
+        "dataset",
+        "source",
+        "source_url",
+        "citation",
+        "n_points",
+        "x_label",
+        "y_label"
+      ],
+      "arrays": {
+        "points": 83,
+        "requiredCitations": 2
+      }
+    },
+    {
+      "label": "Research reference",
+      "path": "data/research-reference.json",
+      "role": "Data and provenance",
+      "bytes": 677,
+      "sha256": "a6fadfd4944c2de3b113969397b32c69a4935f8d87dcb8955200de054034d1a9",
+      "hash_basis": "LF-normalised text",
+      "format": "JSON",
+      "keys": [
+        "title",
+        "description",
+        "equations",
+        "references",
+        "anchors"
+      ],
+      "arrays": {
+        "equations": 3,
+        "references": 1,
+        "anchors": 3
+      }
+    }
+  ]
+}
