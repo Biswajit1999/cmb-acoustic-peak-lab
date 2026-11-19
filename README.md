@@ -4,6 +4,12 @@ Interactive cosmic microwave background power-spectrum laboratory.
 
 Created and maintained by Biswajit Jana.
 
+## Research evidence and downloads
+
+[Open the evidence browser](https://biswajit1999.github.io/cmb-acoustic-peak-lab/evidence.html) for 2 selected files, including [`reference.json`](data/reference.json). Each file has a download link and SHA-256 digest.
+
+Rebuild the inventory and browser with `python scripts/evidence_catalog.py` and `python scripts/render_evidence_page.py`.
+
 ## Scientific Purpose
 
 This zero-build browser laboratory puts a compact reference-data bundle in front of a
